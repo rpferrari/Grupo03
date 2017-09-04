@@ -1,0 +1,578 @@
+[2017-08-28 14:16:20] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:17:34] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:19:54] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:19:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:19:57] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:20:08] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:20:49] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:20:50] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-08-28 14:20:52] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Acessibilidade\Http\Controllers\Controller' not found' in /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php:4
+Stack trace:
+#0 {main}  
+[2017-09-02 20:05:53] local.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$Nome' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes.php:15
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/renato/LA...', 15, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-02 20:13:56] local.ERROR: exception 'InvalidArgumentException' with message 'View [detalhes_cidades] not found.' in /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('detalhes_cidade...', Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Factory.php(129): Illuminate\View\FileViewFinder->find('detalhes_cidade...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(885): Illuminate\View\Factory->make('detalhes_cidade...', Array, Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/app/Http/Controllers/RegiaoController.php(72): view('detalhes_cidade...')
+#4 [internal function]: App\Http\Controllers\RegiaoController->mostra_cidades()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('mostra_cidades', Array)
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Route.php(204): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\RegiaoController), 'mostra_cidades')
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(572): Illuminate\Routing\Route->run()
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-02 20:18:16] local.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$Nome' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:14
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/renato/LA...', 14, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-02 20:19:14] local.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$Nome' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:14
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/renato/LA...', 14, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-02 20:20:27] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:14
+Stack trace:
+#0 {main}  
+[2017-09-02 20:20:51] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '&'' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:15
+Stack trace:
+#0 {main}  
+[2017-09-02 20:21:04] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:16
+Stack trace:
+#0 {main}  
+[2017-09-02 20:23:10] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:17
+Stack trace:
+#0 {main}  
+[2017-09-03 00:24:33] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_cidades.php:33
+Stack trace:
+#0 {main}  
+[2017-09-04 00:13:22] local.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$Nome_cid' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:47
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/renato/LA...', 47, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-04 00:30:26] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:116
+Stack trace:
+#0 {main}  
+[2017-09-04 01:42:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 01:47:24] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 01:50:51] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:115
+Stack trace:
+#0 {main}  
+[2017-09-04 01:50:53] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:115
+Stack trace:
+#0 {main}  
+[2017-09-04 01:51:22] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:115
+Stack trace:
+#0 {main}  
+[2017-09-04 01:52:33] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 01:54:48] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:45
+Stack trace:
+#0 {main}  
+[2017-09-04 02:05:33] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:92
+Stack trace:
+#0 {main}  
+[2017-09-04 02:05:49] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:92
+Stack trace:
+#0 {main}  
+[2017-09-04 02:05:51] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:92
+Stack trace:
+#0 {main}  
+[2017-09-04 02:06:10] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:92
+Stack trace:
+#0 {main}  
+[2017-09-04 02:06:12] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:92
+Stack trace:
+#0 {main}  
+[2017-09-04 02:06:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:07:16] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:07:17] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:07:17] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:11:26] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:15:44] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:93
+Stack trace:
+#0 {main}  
+[2017-09-04 02:20:36] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:09] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:10] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:52] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:54] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:21:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:94
+Stack trace:
+#0 {main}  
+[2017-09-04 02:59:08] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 02:59:12] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 03:00:21] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 03:00:22] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 03:00:23] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:114
+Stack trace:
+#0 {main}  
+[2017-09-04 03:34:24] local.ERROR: exception 'ErrorException' with message 'Undefined variable: cont' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:108
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php(108): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/renato/LA...', 108, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-04 03:53:01] local.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:80
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php(80): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home/renato/LA...', 80, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
+[2017-09-04 03:55:17] local.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php:80
+Stack trace:
+#0 /home/renato/LARAVEL_1/Acessibilidade/resources/views/detalhes_regioes.php(80): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home/renato/LA...', 80, Array)
+#1 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/renato/LA...')
+#2 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(20): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/renato/LA...', Array)
+#3 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\PhpEngine->get('/home/renato/LA...', Array)
+#4 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\View\View->renderContents()
+#6 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Http/Response.php(38): Illuminate\View\View->render()
+#7 /home/renato/LARAVEL_1/Acessibilidade/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(615): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(573): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(65): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#30 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#31 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(533): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#32 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#33 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#34 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#35 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#36 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#39 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#42 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#45 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#48 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#49 /home/renato/LARAVEL_1/Acessibilidade/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#50 /home/renato/LARAVEL_1/Acessibilidade/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#51 /home/renato/LARAVEL_1/Acessibilidade/server.php(21): require_once('/home/renato/LA...')
+#52 {main}  
